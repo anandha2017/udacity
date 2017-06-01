@@ -1,0 +1,3 @@
+docker build -t nb .
+
+docker run -v ~/Documents/Udacity/ud120\ Intro\ to\ Machine\ Learning/tools:/tools -v ~/Documents/Udacity/ud120\ Intro\ to\ Machine\ Learning/maildir:/maildir nb
