@@ -1,0 +1,2 @@
+
+docker run -it -v ~/Documents/Udacity/"nd101 deep learning nanodegree foundation"/notebooks:/opt/notebooks continuumio/anaconda /bin/bash 

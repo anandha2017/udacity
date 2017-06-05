@@ -1,0 +1,2 @@
+
+docker run -it -v ~/Documents/Udacity/"nd101 deep learning nanodegree foundation"/notebooks:/opt/notebooks -p 8888:8888 continuumio/anaconda /bin/bash -c "/opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"  
