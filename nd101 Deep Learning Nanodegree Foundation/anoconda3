@@ -1,0 +1,5 @@
+
+docker run -it \
+  -v ~/Documents/Udacity/"nd101 Deep Learning Nanodegree Foundation"/notebooks:/opt/notebooks \
+  -v ~/Documents/Udacity/"nd101 Deep Learning Nanodegree Foundation"/envs:/opt/conda/envs \
+  continuumio/anaconda3 /bin/bash 
