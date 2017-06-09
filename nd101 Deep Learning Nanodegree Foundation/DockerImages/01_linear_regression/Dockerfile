@@ -7,5 +7,4 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 ADD . /app
 
-# Run app.py when the container launches
-CMD [bash]
+CMD ["/bin/bash"]
