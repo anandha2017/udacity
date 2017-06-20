@@ -1,7 +1,5 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-docker build -t myapp .
-
 docker run -it \
   -v "$DIR"/notebooks:/opt/notebooks \
   -p 8888:8888 myapp /bin/bash -c \
