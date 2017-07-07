@@ -1,5 +1,7 @@
 .DS_Store
 *.pyc
+*.p
+*.npy
 *checkpoint.ipynb
 *MNIST_data/*
 *__pycache__
@@ -12,4 +14,5 @@ nd101 Deep Learning Nanodegree Foundation/DockerImages/16_Sirajs_Image_Classific
 nd101 Deep Learning Nanodegree Foundation/DockerImages/projects/02-image-classification/notebooks/cifar-10-batches-py/*
 nd101 Deep Learning Nanodegree Foundation/DockerImages/projects/02-image-classification/notebooks/cifar-10-python.tar.gz
 nd101 Deep Learning Nanodegree Foundation/DockerImages/16_Sirajs_Image_Classification/notebooks/models/vgg16_weights.h5
-*.p
+nd101 Deep Learning Nanodegree Foundation/DockerImages/20_transfer_learning/notebooks/transfer-learning/codes
+nd101 Deep Learning Nanodegree Foundation/DockerImages/20_transfer_learning/notebooks/transfer-learning/labels
