@@ -5,6 +5,7 @@ MAINTAINER Anandha Ponnampalam <docker2017@ponnampalam.ca>
 RUN conda update setuptools
 RUN pip install tensorflow
 RUN pip install TFLearn
+RUN pip install tqdm
 
 VOLUME  "/notebooks"
 WORKDIR "/opt/notebooks"
