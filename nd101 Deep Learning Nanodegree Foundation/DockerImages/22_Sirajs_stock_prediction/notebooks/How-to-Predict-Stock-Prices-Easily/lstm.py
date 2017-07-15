@@ -14,7 +14,7 @@ def plot_results_multiple(predicted_data, true_data, prediction_len):
     fig = plt.figure(facecolor='white')
     ax = fig.add_subplot(111)
     ax.plot(true_data, label='True Data')
-    print 'yo'
+    print('yo')
     #Pad the list of predictions to shift it in the graph to it's correct start
     for i, data in enumerate(predicted_data):
         padding = [None for p in xrange(i * prediction_len)]
@@ -76,7 +76,7 @@ def build_model(layers):
 
     start = time.time()
     model.compile(loss="mse", optimizer="rmsprop")
-    print "Compilation Time : ", time.time() - start
+    print("Compilation Time : ", time.time() - start)
     return model
 
 def predict_point_by_point(model, data):
