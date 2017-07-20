@@ -3,19 +3,8 @@
 *.p
 *.npy
 *checkpoint.ipynb
-*MNIST_data/*
+*MNIST*
 *__pycache__*
+*cifar-10*
 ud120 Intro to Machine Learning/maildir/*
 nd101 Deep Learning Nanodegree Foundation/envs/
-nd101 Deep Learning Nanodegree Foundation/DockerImages/12_tensorflow/notebooks/intro-to-tensorflow/notMNIST_test.zip
-nd101 Deep Learning Nanodegree Foundation/DockerImages/12_tensorflow/notebooks/intro-to-tensorflow/notMNIST_train.zip
-nd101 Deep Learning Nanodegree Foundation/DockerImages/12_tensorflow/notebooks/intro-to-tensorflow/notMNIST.pickle
-nd101 Deep Learning Nanodegree Foundation/DockerImages/16_Sirajs_Image_Classification/notebooks/data
-nd101 Deep Learning Nanodegree Foundation/DockerImages/projects/02-image-classification/notebooks/cifar-10-batches-py/*
-nd101 Deep Learning Nanodegree Foundation/DockerImages/projects/02-image-classification/notebooks/cifar-10-python.tar.gz
-nd101 Deep Learning Nanodegree Foundation/DockerImages/16_Sirajs_Image_Classification/notebooks/models/vgg16_weights.h5
-nd101 Deep Learning Nanodegree Foundation/DockerImages/20_transfer_learning/notebooks/transfer-learning/codes
-nd101 Deep Learning Nanodegree Foundation/DockerImages/20_transfer_learning/notebooks/transfer-learning/labels
-nd101 Deep Learning Nanodegree Foundation/DockerImages/24_embeddings_and_word2vec/notebooks/01-embeddings/text8.zip
-nd101 Deep Learning Nanodegree Foundation/DockerImages/24_embeddings_and_word2vec/notebooks/01-embeddings/data/*
-nd101 Deep Learning Nanodegree Foundation/DockerImages/24_embeddings_and_word2vec/notebooks/01-embeddings/checkpoints/*
