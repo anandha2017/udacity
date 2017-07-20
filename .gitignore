@@ -1,7 +1,6 @@
 .DS_Store
 *.pyc
-*.npy
+#*.npy
 *checkpoint.ipynb
 *MNIST*
-#*__pycache__*
 *cifar-10*
