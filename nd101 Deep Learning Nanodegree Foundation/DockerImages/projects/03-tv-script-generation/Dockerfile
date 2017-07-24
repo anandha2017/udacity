@@ -3,7 +3,7 @@ FROM continuumio/anaconda3
 MAINTAINER Anandha Ponnampalam <docker2017@ponnampalam.ca>
 
 RUN conda update setuptools
-RUN pip install tensorflow
+RUN pip install 'tensorflow==1.0.0'
 
 VOLUME  "/notebooks"
 WORKDIR "/opt/notebooks"
