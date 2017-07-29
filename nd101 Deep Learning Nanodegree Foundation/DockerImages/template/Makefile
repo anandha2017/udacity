@@ -9,7 +9,7 @@ build:
 bash: build
 	docker run -it -v "$(SRC)/notebooks":/opt/notebooks myapp /bin/bash
 
-jupyter: build
+notebook: build
 	docker run -it \
 	  -v "$(SRC)/notebooks":/opt/notebooks \
 	  -p 8888:8888 myapp /bin/bash -c \
