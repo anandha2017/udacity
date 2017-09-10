@@ -185,6 +185,7 @@ class Dataset(object):
         """
         DATASET_CELEBA_NAME = 'celeba'
         DATASET_MNIST_NAME = 'mnist'
+        DATASET_CARS_NAME = 'cars'
         IMAGE_WIDTH = 28
         IMAGE_HEIGHT = 28
 
@@ -195,6 +196,10 @@ class Dataset(object):
         elif dataset_name == DATASET_MNIST_NAME:
             self.image_mode = 'L'
             image_channels = 1
+            
+        elif dataset_name == DATASET_CARS_NAME:
+            self.image_mode = 'RGB'
+            image_channels = 3
 
         self.data_files = data_files
         self.shape = len(data_files), IMAGE_WIDTH, IMAGE_HEIGHT, image_channels
