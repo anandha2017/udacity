@@ -188,7 +188,7 @@ class Dataset(object):
         DATASET_CARS_NAME = 'cars'
         IMAGE_WIDTH = 28
         IMAGE_HEIGHT = 28
-
+        
         if dataset_name == DATASET_CELEBA_NAME:
             self.image_mode = 'RGB'
             image_channels = 3
@@ -200,6 +200,9 @@ class Dataset(object):
         elif dataset_name == DATASET_CARS_NAME:
             self.image_mode = 'RGB'
             image_channels = 3
+            
+        else:
+            print("Booya")
 
         self.data_files = data_files
         self.shape = len(data_files), IMAGE_WIDTH, IMAGE_HEIGHT, image_channels
