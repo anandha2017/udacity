@@ -9,7 +9,3 @@ ONBUILD RUN conda env create -f /environment.yml -n app
 ONBUILD ADD . /app
 
 #ENTRYPOINT ["/opt/conda/envs/app/bin/python"]
-ENTRYPOINT ["/bin/bash"]
-
-
-
