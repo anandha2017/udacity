@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3
+FROM anandha2017/aind
 
 MAINTAINER Anandha Ponnampalam <docker2017@ponnampalam.ca>
 
@@ -8,4 +8,8 @@ ONBUILD ADD environment.yml /environment.yml
 ONBUILD RUN conda env create -f /environment.yml -n app
 ONBUILD ADD . /app
 
-ENTRYPOINT ["/opt/conda/envs/app/bin/python"]
+#ENTRYPOINT ["/opt/conda/envs/app/bin/python"]
+ENTRYPOINT ["/bin/bash"]
+
+
+
